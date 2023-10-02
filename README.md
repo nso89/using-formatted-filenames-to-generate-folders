@@ -12,11 +12,11 @@ Project Description
 
 Formatted Files:
 ```
-report-working with ai
-sales-2007
-2008-requirements
+report-working with ai.txt
+sales-2007.txt
+2008-requirements.txt
 ```
-You'll notice that the files names start with a word or number, followed by a dash, and end with a word or number.
+You'll notice that the files names start with a word or number, followed by a dash, and end with a word or number. The script isn't exclusive to just `.txt`. We can work with any file type, as long as it's properly formatted. 
 
 #### <a name="setup"></a>Setup
 1. Under your `USERPROFILE`, extract `using-formatted-filenames-to-generate-folders-main.zip`.
