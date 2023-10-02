@@ -40,6 +40,7 @@ C:\Users\nso89\using-formatted-filenames-to-generate-folders-main>python main.py
 ```
 
 3. It takes the word before the hyphen, and generates a folder. It then renames and moves the file to that folder.
+
 **Example**
 ```batch
 Renaming ..\Downloads\2008-requirements.txt --> ..\Downloads\2008\requirements.txt
