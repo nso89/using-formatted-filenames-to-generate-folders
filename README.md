@@ -42,9 +42,9 @@ C:\Users\nso89\using-formatted-filenames-to-generate-folders-main>python main.py
 3. It takes the word before the hyphen, and generates a folder. It then renames and moves the file to that folder.
 **Example**
 ```batch
-Renaming C:\Users\nso89\Downloads\2008-requirements.txt --> C:\Users\nso89\Downloads\2008\requirements.txt
-Renaming C:\Users\nso89\Downloads\report-working with ai.txt --> C:\Users\nso89\Downloads\Report\working-with-ai.txt
-Renaming C:\Users\nso89\Downloads\sales-2007.txt --> C:\Users\nso89\Downloads\Sales\2007.txt
+Renaming ..\Downloads\2008-requirements.txt --> ..\Downloads\2008\requirements.txt
+Renaming ..\Downloads\report-working with ai.txt --> ..\Downloads\Report\working-with-ai.txt
+Renaming ..\Downloads\sales-2007.txt --> ..\Downloads\Sales\2007.txt
 ```
 
 #### <a name="configuration"></a>Configuration
@@ -54,7 +54,7 @@ If you need to change the `SOURCE` or the `DELIMITER`:
 2. Locate the `SOURCE` and `DELIMITER` variable.
 
 **Example**:
-```
+```python
 SOURCE = Path.home().joinpath("Downloads")
 DELIMITER = "-"
 ```
