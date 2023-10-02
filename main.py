@@ -36,7 +36,7 @@ def main():
             if can_parse(file = invalid_file):
                 folder, file = invalid_file.name.split(DELIMITER)
                 parent = SOURCE.joinpath(folder.title())
-                parent.mkdir(parents = False, exist_ok =  True)
+                parent.mkdir(parents = False, exist_ok = True)
                 target = parent.joinpath(file.lower().replace(" ","-"))
                 print(f"Renaming {invalid_file} --> {target}")
                 invalid_file.rename(target)
