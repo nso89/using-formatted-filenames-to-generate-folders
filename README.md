@@ -1,5 +1,5 @@
-# project-name
-Project Description
+# using-formatted-filenames-to-generate-folders
+Using Formatted Filenames to Generate Folders
 
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
