@@ -16,7 +16,9 @@ report-working with ai.txt
 sales-2007.txt
 2008-requirements.txt
 ```
-You'll notice that the files names start with a word or number, followed by a dash, and end with a word or number. The script isn't exclusive to just `.txt`. We can work with any file type, as long as the filename properly formatted. 
+You'll notice that the files names start with a word or number, followed by a dash, and end with a word or number. The script isn't exclusive to just `.txt`. 
+
+We can work with any file type, as long as the filename is properly formatted. 
 
 #### <a name="setup"></a>Setup
 1. Under your `USERPROFILE`, extract `using-formatted-filenames-to-generate-folders-main.zip`.
